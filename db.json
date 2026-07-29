@@ -1,0 +1,139 @@
+{
+  "categories": [
+    { "id": 1, "nom": "Entrées", "description": "Pour bien commencer le repas" },
+    { "id": 2, "nom": "Plats principaux", "description": "Le cœur du repas" },
+    { "id": 3, "nom": "Desserts", "description": "Pour terminer en douceur" },
+    { "id": 4, "nom": "Végétarien", "description": "Sans viande ni poisson" }
+  ],
+  "recettes": [
+    {
+      "id": 1,
+      "titre": "Ratatouille provençale",
+      "categorieIds": [2, 4],
+      "tempsPreparation": 20,
+      "tempsCuisson": 40,
+      "difficulte": "facile",
+      "portions": 4,
+      "ingredients": [
+        { "nom": "Aubergine", "quantite": 2, "unite": "unité" },
+        { "nom": "Courgette", "quantite": 3, "unite": "unité" },
+        { "nom": "Poivron rouge", "quantite": 2, "unite": "unité" },
+        { "nom": "Tomate", "quantite": 4, "unite": "unité" },
+        { "nom": "Oignon", "quantite": 2, "unite": "unité" },
+        { "nom": "Ail", "quantite": 3, "unite": "gousse" },
+        { "nom": "Huile d'olive", "quantite": 4, "unite": "cuillère à soupe" },
+        { "nom": "Herbes de Provence", "quantite": 1, "unite": "cuillère à soupe" }
+      ],
+      "etapes": [
+        "Laver et couper tous les légumes en cubes.",
+        "Faire revenir l'oignon et l'ail dans l'huile d'olive.",
+        "Ajouter les légumes progressivement et laisser mijoter.",
+        "Assaisonner avec les herbes de Provence, sel et poivre.",
+        "Laisser cuire à feu doux pendant 40 minutes."
+      ],
+      "note": 4.5
+    },
+    {
+      "id": 2,
+      "titre": "Tarte Tatin",
+      "categorieIds": [3, 4],
+      "tempsPreparation": 25,
+      "tempsCuisson": 35,
+      "difficulte": "moyen",
+      "portions": 6,
+      "ingredients": [
+        { "nom": "Pomme", "quantite": 8, "unite": "unité" },
+        { "nom": "Pâte feuilletée", "quantite": 1, "unite": "rouleau" },
+        { "nom": "Sucre", "quantite": 150, "unite": "g" },
+        { "nom": "Beurre", "quantite": 80, "unite": "g" }
+      ],
+      "etapes": [
+        "Éplucher et couper les pommes en quartiers.",
+        "Faire un caramel avec le sucre et le beurre dans un moule.",
+        "Disposer les pommes sur le caramel.",
+        "Recouvrir de pâte feuilletée en rentrant les bords.",
+        "Cuire au four à 180°C pendant 35 minutes.",
+        "Démouler à l'envers en la retournant chaude."
+      ],
+      "note": 4.8
+    },
+    {
+      "id": 3,
+      "titre": "Velouté de potiron",
+      "categorieIds": [1, 4],
+      "tempsPreparation": 15,
+      "tempsCuisson": 30,
+      "difficulte": "facile",
+      "portions": 4,
+      "ingredients": [
+        { "nom": "Potiron", "quantite": 1, "unite": "kg" },
+        { "nom": "Oignon", "quantite": 1, "unite": "unité" },
+        { "nom": "Bouillon de légumes", "quantite": 1, "unite": "litre" },
+        { "nom": "Crème fraîche", "quantite": 100, "unite": "ml" },
+        { "nom": "Noix de muscade", "quantite": 1, "unite": "pincée" }
+      ],
+      "etapes": [
+        "Couper le potiron en cubes et l'oignon en dés.",
+        "Faire revenir l'oignon puis ajouter le potiron.",
+        "Couvrir de bouillon et laisser cuire 30 minutes.",
+        "Mixer jusqu'à obtenir une texture lisse.",
+        "Ajouter la crème et la muscade avant de servir."
+      ],
+      "note": 4.2
+    },
+    {
+      "id": 4,
+      "titre": "Curry de légumes au lait de coco",
+      "categorieIds": [2, 4],
+      "tempsPreparation": 15,
+      "tempsCuisson": 25,
+      "difficulte": "facile",
+      "portions": 4,
+      "ingredients": [
+        { "nom": "Patate douce", "quantite": 2, "unite": "unité" },
+        { "nom": "Pois chiche", "quantite": 400, "unite": "g" },
+        { "nom": "Lait de coco", "quantite": 400, "unite": "ml" },
+        { "nom": "Pâte de curry", "quantite": 2, "unite": "cuillère à soupe" },
+        { "nom": "Épinards", "quantite": 100, "unite": "g" }
+      ],
+      "etapes": [
+        "Couper la patate douce en cubes.",
+        "Faire revenir la pâte de curry dans un peu d'huile.",
+        "Ajouter la patate douce et les pois chiches.",
+        "Verser le lait de coco et laisser mijoter 20 minutes.",
+        "Ajouter les épinards en fin de cuisson."
+      ],
+      "note": 4.6
+    },
+    {
+      "id": 5,
+      "titre": "Mousse au chocolat",
+      "categorieIds": [3, 4],
+      "tempsPreparation": 20,
+      "tempsCuisson": 0,
+      "difficulte": "facile",
+      "portions": 6,
+      "ingredients": [
+        { "nom": "Chocolat noir", "quantite": 200, "unite": "g" },
+        { "nom": "Œuf", "quantite": 6, "unite": "unité" },
+        { "nom": "Sucre", "quantite": 30, "unite": "g" }
+      ],
+      "etapes": [
+        "Faire fondre le chocolat au bain-marie.",
+        "Séparer les blancs des jaunes d'œufs.",
+        "Mélanger les jaunes au chocolat fondu.",
+        "Monter les blancs en neige avec le sucre.",
+        "Incorporer délicatement les blancs au mélange chocolaté.",
+        "Réfrigérer au moins 3 heures avant de servir."
+      ],
+      "note": 4.9
+    }
+  ],
+  "avis": [
+    { "id": 1, "recetteId": 1, "auteur": "Marie", "note": 5, "commentaire": "Délicieux et simple à faire !" },
+    { "id": 2, "recetteId": 1, "auteur": "Julien", "note": 4, "commentaire": "Un peu long à préparer mais top." },
+    { "id": 3, "recetteId": 2, "auteur": "Sophie", "note": 5, "commentaire": "Le caramel était parfait." },
+    { "id": 4, "recetteId": 5, "auteur": "Karim", "note": 5, "commentaire": "La meilleure mousse au chocolat testée." },
+    { "id": 5, "recetteId": 4, "auteur": "Laura", "note": 4, "commentaire": "Très parfumé, on en redemande." }
+  ]
+}
